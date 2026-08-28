@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<robot name="robot">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.029403 -0.001813 0.058092" rpy="0 0 3.14159"/>
+      <mass value="15.351205"/>
+      <inertia ixx="0.118027" ixy="0.011128" ixz="-0.002011" iyy="0.212888" iyz="-0.000191" izz="0.292389"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 3.14159"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/base_link.obj"/></geometry>
+      <material name="base_link_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 3.14159"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/base_link.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_1">
+    <inertial>
+      <origin xyz="-0.000001 -0.012245 0.244534" rpy="0 0 3.1415"/>
+      <mass value="40.360397"/>
+      <inertia ixx="0.840933" ixy="0.000039" ixz="0.000011" iyy="0.721193" iyz="-0.005528" izz="0.503656"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_1.obj"/></geometry>
+      <material name="link_1_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_1.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_2">
+    <inertial>
+      <origin xyz="-0.000006 0.132712 0.302142" rpy="0 0 0"/>
+      <mass value="64.899220"/>
+      <inertia ixx="8.129535" ixy="0.000031" ixz="-0.000011" iyy="8.079211" iyz="0.201434" izz="0.506519"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_2.obj"/></geometry>
+      <material name="link_2_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_2.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_3">
+    <inertial>
+      <origin xyz="-0.000002 -0.127110 0.075726" rpy="0 0 0"/>
+      <mass value="17.188386"/>
+      <inertia ixx="0.231055" ixy="0.000000" ixz="-0.000001" iyy="0.209136" iyz="0.033805" izz="0.113361"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_3.obj"/></geometry>
+      <material name="link_3_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_3.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_4">
+    <inertial>
+      <origin xyz="0.000005 -0.004424 0.312037" rpy="0 0 0"/>
+      <mass value="19.420896"/>
+      <inertia ixx="0.861828" ixy="-0.000004" ixz="-0.000034" iyy="0.857702" iyz="0.025929" izz="0.068613"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_4.obj"/></geometry>
+      <material name="link_4_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_4.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_5">
+    <inertial>
+      <origin xyz="-0.000004 -0.045330 0.001764" rpy="0 0 0"/>
+      <mass value="3.141154"/>
+      <inertia ixx="0.011087" ixy="0.000000" ixz="0.000000" iyy="0.010696" iyz="0.000156" izz="0.007349"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_5.obj"/></geometry>
+      <material name="link_5_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_5.obj"/></geometry>
+    </collision>
+  </link>
+  <link name="link_6">
+    <inertial>
+      <origin xyz="-0.000005 -0.000122 0.059861" rpy="0 0 0"/>
+      <mass value="0.638742"/>
+      <inertia ixx="0.000656" ixy="0.000000" ixz="0.000000" iyy="0.000653" iyz="0.000001" izz="0.001056"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_6.obj"/></geometry>
+      <material name="link_6_material"><color rgba="0.541 0.576 0.651 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_6.obj"/></geometry>
+    </collision>
+  </link>
+  <joint name="joint_0" type="revolute">
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <origin xyz="0.000000 0.000000 0.105525" rpy="0 0 3.14159"/>
+    <axis xyz="0.000000 0.000000 1.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <joint name="joint_1" type="revolute">
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <origin xyz="0.000632 0.149325 0.319475" rpy="0 0 0"/>
+    <axis xyz="0.000000 1.000000 0.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <joint name="joint_2" type="revolute">
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <origin xyz="0.000000 0.004175 0.900000" rpy="0 0 0"/>
+    <axis xyz="0.000000 1.000000 0.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <joint name="joint_3" type="revolute">
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <origin xyz="0.000000 -0.153500 0.286496" rpy="0 0 0"/>
+    <axis xyz="0.000000 0.000000 1.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <joint name="joint_4" type="revolute">
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <origin xyz="0.000000 -0.117889 0.613504" rpy="0 0 0"/>
+    <axis xyz="0.000000 1.000000 0.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <joint name="joint_5" type="revolute">
+    <parent link="link_5"/>
+    <child link="link_6"/>
+    <origin xyz="0.000000 -0.062111 0.053142" rpy="0 0 0"/>
+    <axis xyz="0.000000 0.000000 1.000000"/>
+    <limit lower="-3.141593" upper="3.141593" effort="100" velocity="1.0"/>
+  </joint>
+  <link name="tool0"/>
+  <joint name="tool0_joint" type="fixed">
+    <parent link="link_6"/>
+    <child link="tool0"/>
+    <origin xyz="0.000000 0.000000 0.086858" rpy="3.14159 0 0"/>
+  </joint>
+</robot>
