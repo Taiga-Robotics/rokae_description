@@ -8,12 +8,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 3.14159"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/base_link.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/base_link.obj"/></geometry>
       <material name="base_link_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 3.14159"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/base_link.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/base_link.obj"/></geometry>
     </collision>
   </link>
   <link name="link_1">
@@ -24,12 +24,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_1.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_1.obj"/></geometry>
       <material name="link_1_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_1.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_1.obj"/></geometry>
     </collision>
   </link>
   <link name="link_2">
@@ -40,12 +40,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_2.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_2.obj"/></geometry>
       <material name="link_2_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_2.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_2.obj"/></geometry>
     </collision>
   </link>
   <link name="link_3">
@@ -56,12 +56,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_3.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_3.obj"/></geometry>
       <material name="link_3_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_3.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_3.obj"/></geometry>
     </collision>
   </link>
   <link name="link_4">
@@ -72,12 +72,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_4.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_4.obj"/></geometry>
       <material name="link_4_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_4.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_4.obj"/></geometry>
     </collision>
   </link>
   <link name="link_5">
@@ -88,12 +88,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_5.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_5.obj"/></geometry>
       <material name="link_5_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_5.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_5.obj"/></geometry>
     </collision>
   </link>
   <link name="link_6">
@@ -104,12 +104,12 @@
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_6.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_6.obj"/></geometry>
       <material name="link_6_material"><color rgba="0.541 0.576 0.651 1"/></material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry><mesh filename="package://rokae_description/meshes/rokae_cr45/link_6.obj"/></geometry>
+      <geometry><mesh filename="package://rokae_description/meshes/cr45/link_6.obj"/></geometry>
     </collision>
   </link>
   <joint name="joint_0" type="revolute">
