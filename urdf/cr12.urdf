@@ -59,7 +59,16 @@
     <axis xyz="0 0 1"/>
     <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
   </joint>
-
+  <transmission name="tran1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint1">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
   <!--link 1-->
   <link name="xMateCR12_link1">
     <visual>
